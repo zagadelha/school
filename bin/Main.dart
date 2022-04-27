@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
 
-import 'dart:io' show stdin, stdout;
+import 'dart:io';
+//import 'Student.dart';
 
 List<Map<String, dynamic>> students = [];
 var txtName = "";
@@ -10,6 +11,21 @@ var txtSecond = "";
 var option = "";
 
 void main() {
+  /*
+  Working with objects
+
+  Student s1 = Student(
+      name: "Bia",
+      age: 15,
+      first: 7,
+      second: 8,
+      average: 7,
+      situation: "Aproved");
+
+  print("Name: ${s1.name}");
+  print("Situation: ${s1.situation}");
+  */
+
   do {
     menu();
     option = stdin.readLineSync()!;
